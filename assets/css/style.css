@@ -1,5 +1,6 @@
 
 /* DEBUG */
+.debug .about,
 .debug .portfolio .container,
 .debug .portfolio .row,
 .debug .jumbotron,
@@ -10,9 +11,12 @@
 .debug .jumbotron {
     height: 500px;
 }
+
 .debug .height_100 {
     height: 100%;
 }
+.debug .about .col-12,
+.debug .about .col-md-6,
 .debug .portfolio .col-12, 
 .debug .portfolio .col-lg-4,
 .debug .portfolio .col-md-6 {
@@ -24,6 +28,7 @@
     background-color: var(--ref-secondary);
     color: white;
 }
+.about,
 .jumbotron {
     background-color: var(--ref-primary);
 }
