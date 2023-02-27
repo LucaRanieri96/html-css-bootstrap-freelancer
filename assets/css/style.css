@@ -1,5 +1,6 @@
 
 /* DEBUG */
+.debug .container,
 .debug .about,
 .debug .portfolio .container,
 .debug .portfolio .row,
@@ -16,7 +17,6 @@
     height: 100%;
 }
 .debug .footer_top .col,
-.debug .footer_top,
 .debug .contact .col-12,
 .debug .about .col-12,
 .debug .about .col-md-6,
