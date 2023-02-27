@@ -1,15 +1,24 @@
 
 /* DEBUG */
+.debug .jumbotron,
 .debug .app_header,
 .debug [class^='col'] {
     border: 1px dashed black;
 }
-
+.debug .jumbotron {
+    height: 500px;
+}
+.debug .height_100 {
+    height: 100%;
+}
 /* END DEBUG */
 
 .app_header {
     background-color: var(--ref-secondary);
     color: white;
+}
+.jumbotron {
+    background-color: var(--ref-primary);
 }
 
 :root {
