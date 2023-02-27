@@ -1,0 +1,27 @@
+
+/* DEBUG */
+.debug .app_header,
+.debug [class^='col'] {
+    border: 1px dashed black;
+}
+
+/* END DEBUG */
+
+.app_header {
+    background-color: var(--ref-secondary);
+    color: white;
+}
+
+:root {
+    --ref-primary: #1abc9c;
+    --ref-secondary: #2c3e50;
+    --ref-light: white;
+    --ref-dark: black;
+    --ref-tertiary: #3a546d;
+    --ref-house: #ba4b63;
+    --ref-cake: #1ea4b6;
+    --ref-tent: #140f0f;
+    --ref-pad: #1c83c1;
+    --ref-safe: #0e38b5;
+    --ref-sub: #ccb2a3;
+}
