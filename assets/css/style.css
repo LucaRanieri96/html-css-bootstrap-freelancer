@@ -1,6 +1,5 @@
-
 /* DEBUG */
-.debug .container,
+/* .debug .container,
 .debug .about,
 .debug .portfolio .container,
 .debug .portfolio .row,
@@ -28,29 +27,18 @@
 .debug .footer_bot {
     height: 100px;
 }
- .debug .footer_top .col-12 {
+.debug .footer_top .col-12 {
     height: 100px;
- }
+} */
 /* END DEBUG */
-.bg_header {
-    color: var(--ref-secondary);
-}
-.app_header {
-    position: sticky;
-    top: 0;
-    left: 0;
-}
-.footer_bot,
-.app_header {
-    background-color: var(--ref-secondary);
-    color: white;
-}
-.footer_top {
-    background-color: var(--ref-tertiary);
-}
-.about,
-.jumbotron {
-    background-color: var(--ref-primary);
+
+/* UTILITIES */
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 :root {
@@ -66,3 +54,77 @@
     --ref-safe: #0e38b5;
     --ref-sub: #ccb2a3;
 }
+
+.footer_bot,
+.app_header {
+    background-color: var(--ref-secondary);
+    color: white;
+}
+
+.footer_top {
+    background-color: var(--ref-tertiary);
+}
+
+.about,
+.jumbotron {
+    background-color: var(--ref-primary);
+}
+
+img {
+    max-width: 200px;
+}
+
+
+/* HEADER */
+.bg_header {
+    color: var(--ref-secondary);
+}
+
+.app_header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+/* MAIN */
+/* JUMBOTRON */
+.jumbotron {
+    color: var(--ref-light);
+}
+
+/* star container */
+.star_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.star_container::before,
+.star_container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 3px;
+    width: 150px;
+    background-color: #fff;
+}
+
+.star_container::before {
+    left: 0;
+}
+
+.star_container::after {
+    right: 0;
+}
+
+.star_icon {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+/* end star container */
