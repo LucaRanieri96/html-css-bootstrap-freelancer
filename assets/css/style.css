@@ -15,7 +15,7 @@ html {
     --ref-tertiary: #3a546d;
 }
 
-.footer_bot,
+.app_footer,
 .app_header {
     background-color: var(--ref-secondary);
     color: white;
@@ -123,4 +123,12 @@ h2 {
 .about p {
     font-size: 20px;
 }
+/* CONTACT ME */
+.my-btn {
+    background-color: var(--ref-primary) !important;
+}
 
+/* FOOTER */
+.footer_top a {
+    color: var(--ref-primary);
+}
