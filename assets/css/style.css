@@ -151,3 +151,11 @@ h2 {
 .portfolio img {
     border-radius: 1rem;
 }
+
+/* ABOUT */
+.about {
+    color: white;
+}
+.about p {
+    font-size: 20px;
+}
